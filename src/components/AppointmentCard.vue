@@ -134,7 +134,7 @@ function saveAppointmentForm() {
   align-items: center;
 }
 .popup-form-content {
-  width: 75%;
+  width: 95%;
   margin: auto;
   background-color: #fff;
   border-radius: 8px;

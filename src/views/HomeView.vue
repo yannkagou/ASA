@@ -9,10 +9,7 @@
               <div class="col-xl-8 col-lg-9 col-md-11 col-sm-10">
                 <div class="hero__caption">
                   <span>Bienvenu à l'AAVARCAA</span>
-                  <h1>
-                    Association d'Aide aux Victimes d'Accidents de la Route au Cameroun et Assurance
-                    Accident
-                  </h1>
+                  <h1>Solidarité ensemble, Tenons-nous la main</h1>
                 </div>
                 <!-- stroke Text -->
                 <div class="stock-text">
@@ -27,7 +24,7 @@
       <!-- Arrow -->
       <div class="thumb-content-box" @click="showPopup">
         <div class="thumb-content">
-          <h3>Enregistrez vous maintenant</h3>
+          <h3>Enregistrez-vous</h3>
           <i class="fa-regular fa-circle-right fa-beat-fade" style="color: #000000"></i>
         </div>
       </div>
