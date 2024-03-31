@@ -118,14 +118,14 @@
       <h1>Nos Missions</h1>
       <div class="mission">
         <p>
-          Mission de L'AAVARCAA : l'association aide aux victimes d'accident de la route du Cameroun
+          Mission de L'AAVATC : l'association aide aux victimes d'accident de la route du Cameroun
           est dédiée à aider les victimes d'accident de la route, à faciliter la prise en charge
           dans les hôpitaux, financier les frais médicaux pour sauver les vies.
         </p>
       </div>
       <div class="mission">
         <p>
-          Réseau de professionnel : L'AAVARCAA met à la disposition des victimes un réseau de
+          Réseau de professionnel : L'AAVARTC met à la disposition des victimes un réseau de
           professionnel spécialisé, incluant les avocats en droit du dommage corporel, des experts
           médicaux, les psychologues, les autorités compétentes (police, gendarmerie nationale) pour
           soutenir les victimes dans toutes les étapes.
@@ -141,7 +141,7 @@
       <div class="mission">
         <p>
           Assistance et conseils : les victimes d'accidents de la route sont encourgées à contacter
-          l'AAVARCAA pour recevoir de l'aide et des conseils.
+          l'AAVARTC pour recevoir de l'aide et des conseils.
         </p>
       </div>
       <div class="mission">
@@ -161,7 +161,7 @@
         <p>Association aide aux victimes : l'accident de la route et professionnels</p>
         <P
           >L'association propose des professionnels adhèrent tous aux principes de la charte de
-          L'AAVARCAA afin de fournir un travail humain, honnête et de qualité. Pour les
+          L'AAVARTC afin de fournir un travail humain, honnête et de qualité. Pour les
           professionnels souhaitent intervenir, il convient de laisser un message email à
           l'intention du président de l'association d'aide aux victimes d'accidents de la route dans
           la rubrique contact.</P

@@ -8,7 +8,7 @@
             <div class="row">
               <div class="col-xl-8 col-lg-9 col-md-11 col-sm-10">
                 <div class="hero__caption">
-                  <span>Bienvenu à l'AAVARCAA</span>
+                  <span>Bienvenu à l'AAVARTC</span>
                   <h1>Solidarité ensemble, Tenons-nous la main</h1>
                 </div>
                 <!-- stroke Text -->
@@ -44,7 +44,7 @@
           vie par manque de soins. C'est au terme de ces recherches que Monsieur PIATA JACQUES a
           créer cette association dénommée association d'aide aux victimes d'accident de la route du
           Cameroun et assurance accident. <br />
-          L'objectif premier de l'AAVARCAA est de sauver des vies, alterner la douleur et favoriser
+          L'objectif premier de l'AAVARTC est de sauver des vies, alterner la douleur et favoriser
           la guérison, faciliter la prise en charge des victimes dans les hopitaux. Vous voyez que
           la foi agissait avec ses oeuvres et que par les oeuvres la foi fut rendue parfaite. <br />
           Ainsi, s'accomplit ce que dit l'écriture, un decident c'est un évènement involontaire qui
@@ -248,7 +248,7 @@
             <div class="section-title text-center mb-50">
               <span>Nos ressources</span>
               <h2>
-                Les ressources de l'AAVARCAA<br />
+                Les ressources de l'AAVARTC<br />
                 sont multiples!
               </h2>
             </div>
@@ -627,7 +627,7 @@ const showPopup = () => {
   background-image: url(../assets/logo.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 .slider-area .hero__caption {
   overflow: hidden;
@@ -780,7 +780,7 @@ const showPopup = () => {
   top: 505px;
   right: 0px;
   z-index: 2;
-  width: 40%;
+  width: 25%;
 }
 .slider-area .thumb-content-box .thumb-content {
   -webkit-box-align: end;
@@ -1250,7 +1250,7 @@ const showPopup = () => {
     margin-top: -30px;
   }
   .slider-area .thumb-content-box {
-    width: 45%;
+    width: 25%;
     top: 399px;
   }
   .slider-area .thumb-content-box .thumb-content {
@@ -1297,7 +1297,7 @@ const showPopup = () => {
     margin-top: -20px;
   }
   .slider-area .thumb-content-box {
-    width: 60%;
+    width: 25%;
     top: 325px;
   }
   .slider-area .thumb-content-box .thumb-content {

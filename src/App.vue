@@ -2,7 +2,7 @@
   <main>
     <nav>
       <label class="logo">
-        <RouterLink to="/"><p>AAVARCAA</p></RouterLink>
+        <RouterLink to="/"><p>AAVARTC</p></RouterLink>
       </label>
       <input type="checkbox" id="check" />
       <label for="check" class="checkbtn">
@@ -29,7 +29,7 @@
                 <div class="single-footer-caption mb-50">
                   <!-- logo -->
                   <div class="footer-logo">
-                    <p>AAVARCAA</p>
+                    <p>AAVARTC</p>
                   </div>
                   <div class="footer-tittle">
                     <div class="footer-pera">
@@ -38,7 +38,7 @@
                   </div>
                   <div class="footer-number">
                     <h4>+237 696 562 678 / +237 679 613 004</h4>
-                    <p>aavarcaa@gmail.com</p>
+                    <p>aavartc@gmail.com</p>
                   </div>
                 </div>
               </div>
