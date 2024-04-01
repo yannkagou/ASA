@@ -37,7 +37,7 @@
                     </div>
                   </div>
                   <div class="footer-number">
-                    <h4>+237 696 562 678 / +237 679 613 004</h4>
+                    <h4>+237 696 862 678 / +237 679 613 004</h4>
                     <p>aavartc@gmail.com</p>
                   </div>
                 </div>

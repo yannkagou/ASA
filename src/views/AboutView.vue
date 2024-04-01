@@ -118,9 +118,9 @@
       <h1>Nos Missions</h1>
       <div class="mission">
         <p>
-          Mission de L'AAVATC : l'association aide aux victimes d'accident de la route du Cameroun
-          est dédiée à aider les victimes d'accident de la route, à faciliter la prise en charge
-          dans les hôpitaux, financier les frais médicaux pour sauver les vies.
+          Mission de L'AAVATC : l'association aide aux victimes d'accident de la route et de travail
+          du Cameroun est dédiée à aider les victimes d'accident de la route, à faciliter la prise
+          en charge dans les hôpitaux, financier les frais médicaux pour sauver les vies.
         </p>
       </div>
       <div class="mission">
@@ -154,7 +154,7 @@
           >L'association a décidé de se mobiliser pour vous apporter la prise en change rapide à
           votre situation. Si vous êtes victimes d'un accident de la route ou si vous avez des
           questions n'hésitez pas à contacter l'association d'aide aux victimes d'accident de la
-          route du Cameroun pour ACCIdEN obtenir de l'aide et des conseils.</P
+          route et de travail du Cameroun pour obtenir de l'aide et des conseils.</P
         >
       </div>
       <div class="mission">
