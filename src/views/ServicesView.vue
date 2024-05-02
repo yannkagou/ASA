@@ -20,10 +20,9 @@
                 <img src="@/assets/crash1.jpg" alt="..." />
               </div>
               <div class="service-cap">
-                <h4>Lorem, ipsum.</h4>
+                <h4>Aide aux victimes</h4>
                 <p>
-                  Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut
-                  laborea.
+                  L'association a décidé de se mobiliser pour vous apporter la prise en change rapide.
                 </p>
               </div>
             </div>
@@ -34,10 +33,10 @@
                 <img src="@/assets/crash2.jpg" alt="..." />
               </div>
               <div class="service-cap">
-                <h4>Lorem, ipsum.</h4>
+                <h4>Assistance et conseils</h4>
                 <p>
-                  Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut
-                  laborea.
+                  Les victimes d'accidents de la route sont encourgées à contacter
+          l'ASA pour recevoir de l'aide et des conseils.
                 </p>
               </div>
             </div>
@@ -48,10 +47,10 @@
                 <img src="@/assets/crash3.jpg" alt="..." />
               </div>
               <div class="service-cap">
-                <h4>Lorem, ipsum.</h4>
+                <h4>Actions de prévention</h4>
                 <p>
-                  Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut
-                  laborea.
+                  Organisation des
+          actions de sensibilisation, notamment auprès des jeunes conducteurs.
                 </p>
               </div>
             </div>
@@ -62,10 +61,10 @@
                 <img src="@/assets/crash4.jpg" alt="..." />
               </div>
               <div class="service-cap">
-                <h4>Lorem, ipsum.e</h4>
+                <h4>Réseau de professionnel</h4>
                 <p>
-                  Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut
-                  laborea.
+                  L'ASA met à la disposition des victimes un réseau de
+          professionnel spécialisé.
                 </p>
               </div>
             </div>
@@ -82,7 +81,7 @@
             <div class="section-title text-center mb-50">
               <span>Nos ressources</span>
               <h2>
-                Les ressources de l'AAVARTC<br />
+                Les ressources de l'ASA<br />
                 sont multiples!
               </h2>
             </div>
@@ -92,8 +91,8 @@
               <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="pricing-list">
                   <ul>
-                    <li>Inscription personne. . . . . . . . . . . <span>5 000FCFA</span></li>
-                    <li>Inscription famille. . . . . . . . . . .<span>15 000FCFA</span></li>
+                    <li>Inscription personne. . . . . . . . . . . <span>1 000 FCFA</span></li>
+                    <li>Inscription famille. . . . . . . . . . .<span>3 000 FCFA</span></li>
                     <li>Inscription entreprise. . . . . . . . . . .<span>5 000FCFA</span></li>
                   </ul>
                 </div>
@@ -101,7 +100,7 @@
               <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="pricing-list">
                   <ul>
-                    <li>Cotisation trimestrielle. . . . . . . . . . .<span>10 000FCFA</span></li>
+                    <li>Cotisation mensuelle. . . . . . . . . . .<span>2 000 FCFA</span></li>
                     <li>Dons. . . . . . . . . . .<span>***FCFA</span></li>
                   </ul>
                 </div>
@@ -115,19 +114,19 @@
 
     <!-- Articles -->
 
-    <div class="mt-5">
-      <h2>Notre Charte</h2>
+    <div class="charte mt-5">
+      <h2>Notre Charte         <span>téléchargez</span></h2>
       <!-- <a href="../assets/aavartc.pdf" target="_blank">Ouvrir le PDF</a> -->
-      <transition-group name="fade" tag="div">
-        <template v-for="article in articles" :key="article.id">
+      
+        <div v-for="article in articles" :key="article.id" class="article-group">
           <h3 class="article-title">{{ article.title }}</h3>
           <ul class="section">
             <li v-for="paragraph in article.paragraphs" class="bullet-point" :key="paragraph.index">
               {{ paragraph }}
             </li>
           </ul>
-        </template>
-      </transition-group>
+        </div>
+      
     </div>
 
     <!-- Articles End -->
@@ -190,12 +189,26 @@ let articles = ref([
 </script>
 
 <style scoped>
+.charte{
+  padding: 5px 15px;
+}
 h2 {
   color: #333;
   font-size: 24px;
 }
+span{
+  font-size: 12px;
+  color: var(--primary);
+}
 
-h3.article-title {
+.article-group{
+  border: 1px solid var(--secondary);
+  padding: 5px 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.article-title {
   color: #666;
   font-size: 20px;
   margin-top: 30px;
@@ -208,25 +221,16 @@ ul.section {
   padding-left: 20px;
 }
 
-li.bullet-point {
+.bullet-point {
   position: relative;
   padding-left: 15px;
 }
 
-li.bullet-point:before {
+.bullet-point:before {
   content: '•';
   position: absolute;
   left: 0;
   top: 0;
 }
 
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s;
-}
-
-.fade-enter,
-.fade-leave-to {
-  opacity: 0;
-}
 </style>

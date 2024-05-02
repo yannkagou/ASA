@@ -15,16 +15,18 @@
               <!-- Section Tittle -->
               <div class="section-title mb-25">
                 <span>A propos de notre association</span>
-                <h2>Lorem ipsum dolor sit.!</h2>
+                <h2>BUT ET OBJECTIFS</h2>
               </div>
               <p class="mb-30 pera-bottom">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, dolorem in
-                consequuntur cumque excepturi officiis explicabo eveniet magni ullam ut eos a natus
-                repellendus, inventore ipsa aut culpa laborum! Unde.
+                le but de la solidarité est de Faciliter les conditions d’accès à la prise en charge des victimes des accidents de la route et de
+                travail dans les hôpitaux, formation sanitaires et cliniques. <br>
+              L’objectif principal de l’association est de mener, aux moyens et ressources des cotisations des
+                membres, des dons, des subventions et tous autres profits, des actions de prévoyance, d’accès aux
+                soins faciles et réduire le taux de décès lié à la prise en charge tardive donc la raison est, le qui va
+                payer la factures et examens de la victime.
               </p>
               <p class="pera-top mb-50">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea voluptatem quae vero
-                eaque eligendi corrupti.
+               L’association de solidarité en cas d’accident a pour siège social Mvan carrefour et couvre  le triangle du territoire national
               </p>
             </div>
           </div>
@@ -39,8 +41,8 @@
         <div class="row justify-content-center">
           <div class="col-xl-8 col-lg-8 col-md-11 col-sm-11">
             <div class="section-title text-center mb-100">
-              <span>Equipe Professionnelle</span>
-              <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+              <span>Organisation de l'ASA</span>
+              <h3>Assemblée générale et bureau exécutif</h3>
             </div>
           </div>
         </div>
@@ -73,22 +75,22 @@
             <div class="carousel-item active">
               <img src="@/assets/crash6.jpg" class="d-block w-100 team-img" alt="..." />
               <div class="carousel-caption d-md-block team-caption text-center">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder.</p>
+                <h5>Le Président</h5>
+                <p>Il supervise toutes les activités.</p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="@/assets/crash7.jpg" class="d-block w-100" alt="..." />
               <div class="carousel-caption team-caption d-md-block text-center">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder.</p>
+                <h5>Le Vice-président</h5>
+                <p>Il remplace le président en cas d’absence.</p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="@/assets/crash8.jpg" class="d-block w-100" alt="..." />
               <div class="carousel-caption team-caption d-md-block text-center">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder.</p>
+                <h5>Le Secrétaire Général</h5>
+                <p>Il est le principal animateur de l’ASA.</p>
               </div>
             </div>
           </div>
@@ -118,14 +120,13 @@
       <h1>Nos Missions</h1>
       <div class="mission">
         <p>
-          Mission de L'AAVATC : l'association aide aux victimes d'accident de la route et de travail
-          du Cameroun est dédiée à aider les victimes d'accident de la route, à faciliter la prise
+          Mission de L'ASA : l'Association de Solidarité en cas d'Accident est dédiée à aider les victimes d'accident de la route, à faciliter la prise
           en charge dans les hôpitaux, financier les frais médicaux pour sauver les vies.
         </p>
       </div>
       <div class="mission">
         <p>
-          Réseau de professionnel : L'AAVARTC met à la disposition des victimes un réseau de
+          Réseau de professionnel : L'ASA met à la disposition des victimes un réseau de
           professionnel spécialisé, incluant les avocats en droit du dommage corporel, des experts
           médicaux, les psychologues, les autorités compétentes (police, gendarmerie nationale) pour
           soutenir les victimes dans toutes les étapes.
@@ -133,20 +134,19 @@
       </div>
       <div class="mission">
         <p>
-          Actions de prévention : en plus de son rôle d'accompagnement d'aide, l'association d'aide
-          aux victimes des accidents de la route par le biais de l'auto-école italienne organise des
+          Actions de prévention : En plus de son rôle d'accompagnement d'aide, l'Association de Solidarité en cas d'Accident par le biais de l'auto-école italienne organise des
           actions de sensibilisation, notamment auprès des jeunes conducteurs.
         </p>
       </div>
       <div class="mission">
         <p>
           Assistance et conseils : les victimes d'accidents de la route sont encourgées à contacter
-          l'AAVARTC pour recevoir de l'aide et des conseils.
+          l'ASA pour recevoir de l'aide et des conseils.
         </p>
       </div>
       <div class="mission">
         <p>
-          L'association d'aide aux victimes d'accidents de la route du Cameroun a pour vocation
+          L'Association de Solidarité en cas d'Accident a pour vocation
           d'aider. Elle participe également à la commission des usagers de la route et fait des
           actions de prévention.
         </p>
@@ -161,7 +161,7 @@
         <p>Association aide aux victimes : l'accident de la route et professionnels</p>
         <P
           >L'association propose des professionnels adhèrent tous aux principes de la charte de
-          L'AAVARTC afin de fournir un travail humain, honnête et de qualité. Pour les
+          L'ASA afin de fournir un travail humain, honnête et de qualité. Pour les
           professionnels souhaitent intervenir, il convient de laisser un message email à
           l'intention du président de l'association d'aide aux victimes d'accidents de la route dans
           la rubrique contact.</P
@@ -171,4 +171,23 @@
   </main>
 </template>
 
-<style></style>
+<style>
+.missions{
+  padding: 10px;
+}
+
+.missions h1{
+  color: var(--secondary);
+}
+
+.mission{
+  margin: 5px 0;
+  border: 1px solid var(--primary);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.mission p{
+  text-align: center;
+}
+</style>

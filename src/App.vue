@@ -2,7 +2,7 @@
   <main>
     <nav>
       <label class="logo">
-        <RouterLink to="/"><p>AAVARTC</p></RouterLink>
+        <RouterLink to="/"><p>ASA</p></RouterLink>
       </label>
       <input type="checkbox" id="check" />
       <label for="check" class="checkbtn">
@@ -29,16 +29,16 @@
                 <div class="single-footer-caption mb-50">
                   <!-- logo -->
                   <div class="footer-logo">
-                    <p>AAVARTC</p>
+                    <p>Association de Solidarité en cas d'Accident</p>
                   </div>
                   <div class="footer-tittle">
                     <div class="footer-pera">
-                      <p class="info1">Solidarité Ensemble tenons nous la main.</p>
+                      <p class="info1">L'avenir avec confiance.</p>
                     </div>
                   </div>
                   <div class="footer-number">
-                    <h4>+237 696 862 678 / +237 679 613 004</h4>
-                    <p>aavartc@gmail.com</p>
+                    <h5>+237 696 862 678 / +237 679 613 004</h5>
+                    <p>asa@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -284,7 +284,7 @@ nav ul li a.router-link-exact-active::after {
 }
 .footer-area .footer-logo p {
   color: var(--primary);
-  font-size: 35px;
+  font-size: 20px;
   font-weight: 700;
   margin: 0 !important;
 }

@@ -175,12 +175,11 @@
                           ></path></svg
                       ></span>
                     </div>
-                    <h4 class="testimonial-title">Titre</h4>
+                    <h4 class="testimonial-title">témoignage 1</h4>
                     <p class="testimonial-text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut facilis laborum,
-                      esse aut facere quidem! Rem doloribus quae.
+                      Text du témoignage
                     </p>
-                    <div class="testimonial-author">Ivana</div>
+                    <div class="testimonial-author">victime 1</div>
                     <!-- <img src="..." class="d-block w-100" alt="..."> -->
                   </div>
                   <div class="carousel-item">
@@ -235,12 +234,11 @@
                           ></path></svg
                       ></span>
                     </div>
-                    <h4 class="testimonial-title">Titre 1t</h4>
+                    <h4 class="testimonial-title">témoignage 2</h4>
                     <p class="testimonial-text">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam delectus
-                      nulla dolor vel accusantium, fugit hic ab impedit?
+                      Text du témoignage
                     </p>
-                    <div class="testimonial-author">Nathalia</div>
+                    <div class="testimonial-author">Victime 2</div>
                   </div>
                   <div class="carousel-item">
                     <div>
@@ -306,12 +304,11 @@
                           ></path></svg
                       ></span>
                     </div>
-                    <h4 class="testimonial-title">Woooow amazing!!!</h4>
+                    <h4 class="testimonial-title">Témoignage 3</h4>
                     <p class="testimonial-text">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam vel eos
-                      praesentium cumque. At et cum sint unde!
+                      Text du témoignage
                     </p>
-                    <div class="testimonial-author">Lynn</div>
+                    <div class="testimonial-author">Victime 3</div>
                   </div>
                 </div>
                 <div class="buttons">

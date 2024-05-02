@@ -8,7 +8,7 @@
             <div class="row">
               <div class="col-xl-8 col-lg-9 col-md-11 col-sm-10">
                 <div class="hero__caption">
-                  <span>Bienvenu à l'AAVARTC</span>
+                  <span>Bienvenu à l'Association de Solidarité en cas d'Accident</span>
                   <h1>Solidarité ensemble, Tenons-nous la main</h1>
                 </div>
                 <!-- stroke Text -->
@@ -44,7 +44,7 @@
           vie par manque de soins. C'est au terme de ces recherches que Monsieur PIATA JACQUES a
           créer cette association dénommée association d'aide aux victimes d'accident de la route et
           de travail du Cameroun. <br />
-          L'objectif premier de l'AAVARTC est de sauver des vies, alterner la douleur et favoriser
+          L'objectif premier de l'ASA est de sauver des vies, alterner la douleur et favoriser
           la guérison, faciliter la prise en charge des victimes dans les hopitaux. Vous voyez que
           la foi agissait avec ses oeuvres et que par les oeuvres la foi fut rendue parfaite. <br />
           Ainsi, s'accomplit ce que dit l'écriture, un decident c'est un évènement involontaire qui
@@ -65,18 +65,20 @@
           <div class="col-lg-6 col-md-12">
             <div class="about-caption">
               <!-- Section Tittle -->
-              <div class="section-title mb-25">
+              <div class="section-title mb-22">
                 <span>A propos de notre association</span>
-                <h2>Lorem ipsum dolor sit.!</h2>
+                <h2>BUT ET OBJECTIFS</h2>
               </div>
               <p class="mb-30 pera-bottom">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, dolorem in
-                consequuntur cumque excepturi officiis explicabo eveniet magni ullam ut eos a natus
-                repellendus, inventore ipsa aut culpa laborum! Unde.
+                le but de la solidarité est de Faciliter les conditions d’accès à la prise en charge des victimes des accidents de la route et de
+                travail dans les hôpitaux, formation sanitaires et cliniques. <br>
+              L’objectif principal de l’association est de mener, aux moyens et ressources des cotisations des
+                membres, des dons, des subventions et tous autres profits, des actions de prévoyance, d’accès aux
+                soins faciles et réduire le taux de décès lié à la prise en charge tardive donc la raison est, le qui va
+                payer la factures et examens de la victime.
               </p>
-              <p class="pera-top mb-50">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea voluptatem quae vero
-                eaque eligendi corrupti.
+              <p class="pera-top mb-20">
+               L’association de solidarité en cas d’accident a pour siège social Mvan carrefour et couvre  le triangle du territoire national
               </p>
             </div>
           </div>
@@ -85,7 +87,7 @@
     </section>
     <!-- About-2 Area End -->
     <!--? Services Area Start -->
-    <section class="service-area pb-170">
+    <section class="service-area pb-0">
       <div class="container">
         <!-- Section Tittle -->
         <div class="row d-flex justify-content-center">
@@ -104,10 +106,9 @@
                 <img src="@/assets/crash6.jpg" alt="..." />
               </div>
               <div class="service-cap">
-                <h4>Lorem, ipsum.</h4>
+                <h4>Aide aux victimes</h4>
                 <p>
-                  Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut
-                  laborea.
+                  L'association a décidé de se mobiliser pour vous apporter la prise en change rapide.
                 </p>
               </div>
             </div>
@@ -118,10 +119,10 @@
                 <img src="@/assets/crash7.jpg" alt="..." />
               </div>
               <div class="service-cap">
-                <h4>Lorem, ipsum.</h4>
+                <h4>Assistance et conseils</h4>
                 <p>
-                  Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut
-                  laborea.
+                  Les victimes d'accidents de la route sont encourgées à contacter
+          l'ASA pour recevoir de l'aide et des conseils.
                 </p>
               </div>
             </div>
@@ -132,10 +133,10 @@
                 <img src="@/assets/crash5.jpg" alt="..." />
               </div>
               <div class="service-cap">
-                <h4>Lorem, ipsum.</h4>
+                <h4>Actions de prévention</h4>
                 <p>
-                  Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut
-                  laborea.
+                  Organisation des
+          actions de sensibilisation, notamment auprès des jeunes conducteurs.
                 </p>
               </div>
             </div>
@@ -146,10 +147,10 @@
                 <img src="@/assets/crash4.jpg" alt="..." />
               </div>
               <div class="service-cap">
-                <h4>Lorem, ipsum.</h4>
+                <h4>Réseau de professionnel</h4>
                 <p>
-                  Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut
-                  laborea.
+                  L'ASA met à la disposition des victimes un réseau de
+          professionnel spécialisé.
                 </p>
               </div>
             </div>
@@ -165,8 +166,8 @@
         <div class="row justify-content-center">
           <div class="col-xl-8 col-lg-8 col-md-11 col-sm-11">
             <div class="section-title text-center mb-100">
-              <span>Equipe Professionnelle</span>
-              <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+              <span>Organisation de l'ASA</span>
+              <h3>Assemblée générale et bureau exécutif</h3>
             </div>
           </div>
         </div>
@@ -199,22 +200,22 @@
             <div class="carousel-item active">
               <img src="@/assets/profile.jpg" class="d-block w-100 team-img" alt="..." />
               <div class="carousel-caption d-md-block team-caption text-center">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder.</p>
+                <h5>Le Président</h5>
+                <p>Il supervise toutes les activités.</p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="@/assets/profile.jpg" class="d-block w-100" alt="..." />
               <div class="carousel-caption team-caption d-md-block text-center">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder.</p>
+                <h5>Le Vice-président</h5>
+                <p>Il remplace le président en cas d’absence.</p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="@/assets/profile.jpg" class="d-block w-100" alt="..." />
               <div class="carousel-caption team-caption d-md-block text-center">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder.</p>
+                <h5>Le Secrétaire Général</h5>
+                <p>Il est le principal animateur de l’ASA.</p>
               </div>
             </div>
           </div>
@@ -248,7 +249,7 @@
             <div class="section-title text-center mb-50">
               <span>Nos ressources</span>
               <h2>
-                Les ressources de l'AAVARTC<br />
+                Les ressources de l'ASA<br />
                 sont multiples!
               </h2>
             </div>
@@ -258,8 +259,8 @@
               <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="pricing-list">
                   <ul>
-                    <li>Inscription personne. . . . . . . . . . . <span>5 000FCFA</span></li>
-                    <li>Inscription famille. . . . . . . . . . .<span>15 000FCFA</span></li>
+                    <li>Inscription personne. . . . . . . . . . . <span>1 000 FCFA</span></li>
+                    <li>Inscription famille. . . . . . . . . . .<span>3 000 FCFA</span></li>
                     <li>Inscription entreprise. . . . . . . . . . .<span>5 000FCFA</span></li>
                   </ul>
                 </div>
@@ -267,7 +268,7 @@
               <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="pricing-list">
                   <ul>
-                    <li>Cotisation trimestrielle. . . . . . . . . . .<span>10 000FCFA</span></li>
+                    <li>Cotisation mensuelle. . . . . . . . . . .<span>2 000 FCFA</span></li>
                     <li>Dons. . . . . . . . . . .<span>***FCFA</span></li>
                   </ul>
                 </div>
@@ -411,12 +412,11 @@
                           ></path></svg
                       ></span>
                     </div>
-                    <h4 class="testimonial-title">Titre</h4>
+                    <h4 class="testimonial-title">témoignage 1</h4>
                     <p class="testimonial-text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut facilis laborum,
-                      esse aut facere quidem! Rem doloribus quae.
+                      Text du témoignage
                     </p>
-                    <div class="testimonial-author">Victime</div>
+                    <div class="testimonial-author">Victime 1</div>
                     <!-- <img src="..." class="d-block w-100" alt="..."> -->
                   </div>
                   <div class="carousel-item">
@@ -471,12 +471,11 @@
                           ></path></svg
                       ></span>
                     </div>
-                    <h4 class="testimonial-title">Titre 2</h4>
+                    <h4 class="testimonial-title">témoignage 2</h4>
                     <p class="testimonial-text">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam delectus
-                      nulla dolor vel accusantium, fugit hic ab impedit?
+                      Text du témoignage
                     </p>
-                    <div class="testimonial-author">Victime 1</div>
+                    <div class="testimonial-author">Victime 2</div>
                   </div>
                   <div class="carousel-item">
                     <div>
@@ -542,12 +541,11 @@
                           ></path></svg
                       ></span>
                     </div>
-                    <h4 class="testimonial-title">Woooow amazing!!!</h4>
+                    <h4 class="testimonial-title">témoignage 3</h4>
                     <p class="testimonial-text">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam vel eos
-                      praesentium cumque. At et cum sint unde!
+                      Text du témoignage
                     </p>
-                    <div class="testimonial-author">Victime 2</div>
+                    <div class="testimonial-author">Victime 3</div>
                   </div>
                 </div>
                 <div class="buttons">
@@ -807,6 +805,26 @@ const showPopup = () => {
 .slider-area .thumb-content-box .thumb-content i {
   font-size: 25px;
 }
+
+.presentation{
+  width: 100%;
+}
+.presentation .desc{
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.presentation .desc img{
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.presentation .desc p{
+  text-align: center;
+  font-size: 10px;
+}
 .about-area {
   margin-top: 10px;
 }
@@ -832,7 +850,7 @@ const showPopup = () => {
   letter-spacing: 0.05em;
 }
 .section-tittle h2 {
-  font-size: 50px;
+  font-size: 30px;
   display: block;
   color: var(--secondary);
   font-weight: 700;
@@ -842,11 +860,13 @@ const showPopup = () => {
   font-size: 16px;
   font-weight: 500;
   color: var(--secondary);
+  text-align: center;
 }
 .about-area .about-caption .pera-bottom {
   font-size: 16px;
   color: var(--secondary);
   font-weight: 300;
+  text-align: center;
 }
 .service-area {
   margin-top: 30px;
@@ -961,15 +981,15 @@ const showPopup = () => {
 .best-pricing .pricing-list ul li {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
   color: #010101;
-  margin-bottom: 18px;
+  margin-bottom: 12px;
 }
 .best-pricing .pricing-list ul li span {
   color: #d19f68 !important;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .gallery-area .gallery-img {
