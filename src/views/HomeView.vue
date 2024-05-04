@@ -47,7 +47,7 @@
           L'objectif premier de l'ASA est de sauver des vies, alterner la douleur et favoriser
           la guérison, faciliter la prise en charge des victimes dans les hopitaux. Vous voyez que
           la foi agissait avec ses oeuvres et que par les oeuvres la foi fut rendue parfaite. <br />
-          Ainsi, s'accomplit ce que dit l'écriture, un decident c'est un évènement involontaire qui
+          Ainsi, s'accomplit ce que dit l'écriture, un accident c'est un évènement involontaire qui
           peut arriver à n'importe qui.
         </p>
       </div>
@@ -268,8 +268,9 @@
               <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="pricing-list">
                   <ul>
-                    <li>Cotisation mensuelle. . . . . . . . . . .<span>2 000 FCFA</span></li>
+                    <li>Frais d'adhésion annuelle. . . . . . . . . . .<span>24 000 FCFA</span></li>
                     <li>Dons. . . . . . . . . . .<span>***FCFA</span></li>
+                    <li>Subventions. . . . . . . . . . .<span>***FCFA</span></li>
                   </ul>
                 </div>
               </div>
