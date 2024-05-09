@@ -260,14 +260,14 @@
                   <ul>
                     <li>Inscription personne. . . . . . . . . . . <span>1 000 FCFA</span></li>
                     <li>Inscription famille. . . . . . . . . . .<span>3 000 FCFA</span></li>
-                    <li>Inscription entreprise. . . . . . . . . . .<span>5 000FCFA</span></li>
                   </ul>
                 </div>
               </div>
               <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="pricing-list">
                   <ul>
-                    <li>Frais d'adhésion annuelle. . . . . . . . . . .<span>24 000 FCFA</span></li>
+                    <li>Frais d'adhésion. . . . . . . . . . .<span>24 000 FCFA</span></li>
+                    <li>Frais d'adhésion enfants. . . . . . . . . . .<span>10 000 FCFA</span></li>
                     <li>Dons. . . . . . . . . . .<span>***FCFA</span></li>
                     <li>Subventions. . . . . . . . . . .<span>***FCFA</span></li>
                   </ul>

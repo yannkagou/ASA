@@ -14,7 +14,6 @@
               <input
                 class="email"
                 type="text"
-                id="appointmentname"
                 v-model="appointmentform.name"
                 placeholder="Nom..."
                 required
@@ -25,7 +24,6 @@
               <input
                 class="email"
                 type="email"
-                id="appointmentemail"
                 v-model="appointmentform.email"
                 placeholder="Email..."
                 required
@@ -38,10 +36,9 @@
               <label class="input-label">Numero de telephone</label>
               <input
                 class="email"
-                type="tel"
-                id="appointmentservice"
+                type="text"
                 v-model="appointmentform.tel"
-                placeholder="Votre numéro de téléphone..."
+                placeholder="Tel avec 237 (pas de +)..."
                 required
               />
             </div>
@@ -50,11 +47,37 @@
               <input
                 class="email"
                 type="text"
-                id="appointmentdate"
                 v-model="appointmentform.address"
                 placeholder="Adresse..."
                 required
               />
+            </div>
+          </div>
+
+          <div class="form-items">
+            <div class="form-group">
+              <label class="input-label">Ville</label>
+              <input
+                class="email"
+                type="tel"
+                v-model="appointmentform.town"
+                placeholder="Votre ville..."
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="input-label">Option</label>
+              <select
+                class="email"
+                v-model="appointmentform.option"
+                placeholder="Choisir votre option..."
+                required>
+                  <option value="inscription_personne">Inscription personne</option>
+                  <option value="inscription_famille">Inscription famille</option>
+                  <option value="adhesion_personne">Adhésion personne</option>
+                  <option value="adhesion_enfants">Adhésion enfants</option>
+                  <option value="dons">dons</option>
+              </select>
             </div>
           </div>
 
@@ -63,7 +86,6 @@
             <textarea
               class="email"
               v-model="appointmentform.message"
-              id="appointmentmessage"
               rows="4"
               cols="50"
               placeholder="Entrez un message..."
@@ -85,6 +107,7 @@
 
 <script setup>
 import { ref, reactive } from 'vue'
+import axios from 'axios';
 
 defineProps({
   showAppointment: Boolean
@@ -103,6 +126,8 @@ let appointmentform = reactive({
   email: '',
   tel: '',
   address: '',
+  town: '',
+  option: '',
   message: ''
 })
 
@@ -110,9 +135,65 @@ let appointmentform = reactive({
 //     showAppointment.value = !showAppointment.value
 // }
 
-function saveAppointmentForm() {
+async function saveAppointmentForm() {
   appointmentData.value.push(appointmentform)
   console.log(appointmentData.value)
+  if (appointmentform.option == "inscription_personne"){
+    await axios.post("https://api.monetbil.com/payment/v1/placePayment", {
+      "service": "GineojbVwE7rw5uvPUduZsGYWgeagWwN",
+      "amount": "1000",
+      "phonenumber": "237" + appointmentform.tel,
+      "last_name": appointmentform.name,
+      "email": appointmentform.email
+    }).then(res => {
+      console.log(res);
+    }).catch(error => {
+      console.log(error);
+    })
+  } else if (appointmentform.option == "inscription_famille"){
+    await axios.post("https://api.monetbil.com/payment/v1/placePayment", {
+      "service": "rDxZpkxgFIAJJddbRlfHzUtGjBwezp3l",
+      "amount": "3000",
+      "phonenumber": "237" + appointmentform.tel,
+      "last_name": appointmentform.name,
+      "email": appointmentform.email
+    }).then(res => {
+      console.log(res);
+    }).catch(error => {
+      console.log(error);
+    })
+  } else if (appointmentform.option == "adhesion_personne"){
+    await axios.post("https://api.monetbil.com/payment/v1/placePayment", {
+      "service": "vQYb7KRzSLm99KYKKduDgCbe7UpmyPCe",
+      "amount": "24000",
+      "phonenumber": "237" + appointmentform.tel,
+      "last_name": appointmentform.name,
+      "email": appointmentform.email
+    }).then(res => {
+      console.log(res);
+    }).catch(error => {
+      console.log(error);
+    })
+  } else if (appointmentform.option == "adhesion_enfants"){
+    await axios.post("https://api.monetbil.com/payment/v1/placePayment", {
+      "service": "ufnMLrKYvUJxzbsddQdmOJQXBRuDLutJ",
+      "amount": "10000",
+      "phonenumber": "237" + appointmentform.tel,
+      "last_name": appointmentform.name,
+      "email": appointmentform.email
+    }).then(res => {
+      console.log(res);
+    }).catch(error => {
+      console.log(error);
+    })
+  } else if (appointmentform.option == "dons"){
+    await axios.get("https://api.monetbil.com/widget/v2.1/VaB3haeYIao9zm8KrhQKwxFaoQ3ITQ8W").then(res => {
+      console.log(res);
+    }).catch(error => {
+      console.log(error);
+    })
+  }
+
 }
 </script>
 
@@ -188,13 +269,11 @@ function saveAppointmentForm() {
   box-shadow: none;
 }
 .modal-body .profile-form .form-items {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: block;
   margin-bottom: 20px;
 }
 .modal-body .profile-form .form-items .form-group {
-  width: 48%;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -215,7 +294,7 @@ function saveAppointmentForm() {
 }
 .email {
   line-height: 1;
-  padding: 8px;
+  padding: 15px;
   border-radius: 14px;
   border: 1px solid #ccc;
 }
@@ -250,8 +329,8 @@ textarea:hover {
   text-align: center;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-  height: 30px;
-  padding: 8px 15px;
+  height: 50x;
+  padding: 15px 15px;
   font-size: 12px;
   border-radius: 12px;
   background: #fff;
@@ -268,8 +347,8 @@ textarea:hover {
   text-align: center;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-  height: 30px;
-  padding: 8px 15px;
+  height: 50px;
+  padding: 15px 15px;
   font-size: 12px;
   border-radius: 12px;
   background: var(--primary);
