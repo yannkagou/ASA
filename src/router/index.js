@@ -40,7 +40,7 @@ const router = createRouter({
     {
       path: '/failed',
       name: 'failed',
-      component: () => import('../views/FaildView.vue')
+      component: () => import('../views/FailedView.vue')
     }
   ]
 })
