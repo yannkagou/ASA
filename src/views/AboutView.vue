@@ -153,8 +153,7 @@
         <P
           >L'association a décidé de se mobiliser pour vous apporter la prise en change rapide à
           votre situation. Si vous êtes victimes d'un accident de la route ou si vous avez des
-          questions n'hésitez pas à contacter l'association d'aide aux victimes d'accident de la
-          route et de travail du Cameroun pour obtenir de l'aide et des conseils.</P
+          questions n'hésitez pas à contacter l'Association de Solidarité en cas d'Accident du Cameroun pour obtenir de l'aide et des conseils.</P
         >
       </div>
       <div class="mission">
@@ -163,7 +162,7 @@
           >L'association propose des professionnels adhèrent tous aux principes de la charte de
           L'ASA afin de fournir un travail humain, honnête et de qualité. Pour les
           professionnels souhaitent intervenir, il convient de laisser un message email à
-          l'intention du président de l'association d'aide aux victimes d'accidents de la route dans
+          l'intention du président de l'Association de Solidarité en cas d'Accident dans
           la rubrique contact.</P
         >
       </div>

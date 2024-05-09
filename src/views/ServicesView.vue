@@ -143,15 +143,15 @@ let articles = ref([
     title: 'Article 1 : constitution',
     paragraphs: [
       '(1) Il est créé en ce jour 16 mars 2024 en république du Cameroun, une association entre les adhérents aux présents statuts, et ceux qui y adhèreront ultérieurement.',
-      '(2) L’assemblée générale adopte la dénomination de « L’ASSOCIATION D’AIDE AUX VICTIMES DES ACCIDENTS DE LA ROUTE ET DE TRAVAIL DU CAMEROUN ». Conformément à la loi du 01 juillet 1901 qui régit la liberté de création d’association.',
-      '(3) L’association est à but non lucratif, apolitique, accueillant toutes personnes sans distinction d’âge, de sexe, de race de tribu, de culture ou de religion. Sa devise est PRISE EN CHARGE POUR TOUS, SAUVE DES VIES ET FAVORISE LA GUERISON'
+      "(2) L’assemblée générale adopte la dénomination de « L'Association de Solidarité en cas 'Accident ». Conformément à la loi du 01 juillet 1901 qui régit la liberté de création d’association.",
+      "(3) L’association est à but non lucratif, apolitique, accueillant toutes personnes sans distinction d’âge, de sexe, de race de tribu, de culture ou de religion. Sa devise est PRISE EN CHARGE POUR TOUS, SAUVE DES VIES ET FAVORISE LA GUERISON"
     ]
   },
   {
     id: 2,
     title: 'Article 2 : but et objectifs',
     paragraphs: [
-      '(1) : le but de l’association d’aide aux victimes des accidents de la route et de travail du Cameroun est de : Faciliter les conditions d’accès à la prise en charge des victimes des accidents de la route dans les hôpitaux, formation sanitaires et cliniques.',
+      "(1) : le but de l’Association de Solidarité en cas d'Accident est de : Faciliter les conditions d’accès à la prise en charge des victimes des accidents de la route dans les hôpitaux, formation sanitaires et cliniques.",
       '(2)L’objectif principal de l’association est de mener, aux moyens et ressources des cotisations des membres, des dons, des subventions et tous autres profits, des actions de prévoyance, d’accès aux soins faciles et réduire le taux de décès lié à la prise en charge tardive donc la raison est, le qui va payer la factures et examens de la victime. De manière spécifique, Promouvoir sur le plan social la prise en charge des personnes victimes d’accidents, Promouvoir et garantir la protection sociale, Réduire le taux de mortalité accidentel, Mettre en place les œuvres d’entraide, d’assistance et de prise en charge rapide'
     ]
   },

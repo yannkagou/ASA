@@ -42,8 +42,7 @@
           Alors dans la plupart des temps les victimes n'ont pas d'argent pour intervenir rapidement
           sur l'urgence le temps de contacter les membres de la famille, parfois d'autres perdent la
           vie par manque de soins. C'est au terme de ces recherches que Monsieur PIATA JACQUES a
-          créer cette association dénommée association d'aide aux victimes d'accident de la route et
-          de travail du Cameroun. <br />
+          créer cette association dénommée Association de Solidarité en cas d'Accident. <br />
           L'objectif premier de l'ASA est de sauver des vies, alterner la douleur et favoriser
           la guérison, faciliter la prise en charge des victimes dans les hopitaux. Vous voyez que
           la foi agissait avec ses oeuvres et que par les oeuvres la foi fut rendue parfaite. <br />
