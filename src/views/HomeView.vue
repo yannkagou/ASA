@@ -8,7 +8,7 @@
             <div class="row">
               <div class="col-xl-8 col-lg-9 col-md-11 col-sm-10">
                 <div class="hero__caption">
-                  <span>Bienvenu à l'Association de Solidarité en cas d'Accident</span>
+                  <span>Bienvenue à l'Association de Solidarité en cas d'Accident</span>
                   <h1>Solidarité ensemble, Tenons-nous la main</h1>
                 </div>
                 <!-- stroke Text -->
@@ -43,9 +43,9 @@
           sur l'urgence le temps de contacter les membres de la famille, parfois d'autres perdent la
           vie par manque de soins. C'est au terme de ces recherches que Monsieur PIATA JACQUES a
           créer cette association dénommée Association de Solidarité en cas d'Accident. <br />
-          L'objectif premier de l'ASA est de sauver des vies, alterner la douleur et favoriser
-          la guérison, faciliter la prise en charge des victimes dans les hopitaux. Vous voyez que
-          la foi agissait avec ses oeuvres et que par les oeuvres la foi fut rendue parfaite. <br />
+          L'objectif premier de l'ASA est de sauver des vies, alterner la douleur et favoriser la
+          guérison, faciliter la prise en charge des victimes dans les hopitaux. Vous voyez que la
+          foi agissait avec ses oeuvres et que par les oeuvres la foi fut rendue parfaite. <br />
           Ainsi, s'accomplit ce que dit l'écriture, un accident c'est un évènement involontaire qui
           peut arriver à n'importe qui.
         </p>
@@ -69,15 +69,18 @@
                 <h2>BUT ET OBJECTIFS</h2>
               </div>
               <p class="mb-30 pera-bottom">
-                le but de la solidarité est de Faciliter les conditions d’accès à la prise en charge des victimes des accidents de la route et de
-                travail dans les hôpitaux, formation sanitaires et cliniques. <br>
-              L’objectif principal de l’association est de mener, aux moyens et ressources des cotisations des
-                membres, des dons, des subventions et tous autres profits, des actions de prévoyance, d’accès aux
-                soins faciles et réduire le taux de décès lié à la prise en charge tardive donc la raison est, le qui va
-                payer la factures et examens de la victime.
+                le but de la solidarité est de Faciliter les conditions d’accès à la prise en charge
+                des victimes des accidents de la route et de travail dans les hôpitaux, formation
+                sanitaires et cliniques. <br />
+                L’objectif principal de l’association est de mener, aux moyens et ressources des
+                cotisations des membres, des dons, des subventions et tous autres profits, des
+                actions de prévoyance, d’accès aux soins faciles et réduire le taux de décès lié à
+                la prise en charge tardive donc la raison est, le qui va payer la factures et
+                examens de la victime.
               </p>
               <p class="pera-top mb-20">
-               L’association de solidarité en cas d’accident a pour siège social Mvan carrefour et couvre  le triangle du territoire national
+                L’association de solidarité en cas d’accident a pour siège social Mvan carrefour et
+                couvre le triangle du territoire national
               </p>
             </div>
           </div>
@@ -107,7 +110,8 @@
               <div class="service-cap">
                 <h4>Aide aux victimes</h4>
                 <p>
-                  L'association a décidé de se mobiliser pour vous apporter la prise en change rapide.
+                  L'association a décidé de se mobiliser pour vous apporter la prise en change
+                  rapide.
                 </p>
               </div>
             </div>
@@ -120,8 +124,8 @@
               <div class="service-cap">
                 <h4>Assistance et conseils</h4>
                 <p>
-                  Les victimes d'accidents de la route sont encourgées à contacter
-          l'ASA pour recevoir de l'aide et des conseils.
+                  Les victimes d'accidents de la route sont encourgées à contacter l'ASA pour
+                  recevoir de l'aide et des conseils.
                 </p>
               </div>
             </div>
@@ -134,8 +138,8 @@
               <div class="service-cap">
                 <h4>Actions de prévention</h4>
                 <p>
-                  Organisation des
-          actions de sensibilisation, notamment auprès des jeunes conducteurs.
+                  Organisation des actions de sensibilisation, notamment auprès des jeunes
+                  conducteurs.
                 </p>
               </div>
             </div>
@@ -148,8 +152,7 @@
               <div class="service-cap">
                 <h4>Réseau de professionnel</h4>
                 <p>
-                  L'ASA met à la disposition des victimes un réseau de
-          professionnel spécialisé.
+                  L'ASA met à la disposition des victimes un réseau de professionnel spécialisé.
                 </p>
               </div>
             </div>
@@ -413,9 +416,7 @@
                       ></span>
                     </div>
                     <h4 class="testimonial-title">témoignage 1</h4>
-                    <p class="testimonial-text">
-                      Text du témoignage
-                    </p>
+                    <p class="testimonial-text">Text du témoignage</p>
                     <div class="testimonial-author">Victime 1</div>
                     <!-- <img src="..." class="d-block w-100" alt="..."> -->
                   </div>
@@ -472,9 +473,7 @@
                       ></span>
                     </div>
                     <h4 class="testimonial-title">témoignage 2</h4>
-                    <p class="testimonial-text">
-                      Text du témoignage
-                    </p>
+                    <p class="testimonial-text">Text du témoignage</p>
                     <div class="testimonial-author">Victime 2</div>
                   </div>
                   <div class="carousel-item">
@@ -542,9 +541,7 @@
                       ></span>
                     </div>
                     <h4 class="testimonial-title">témoignage 3</h4>
-                    <p class="testimonial-text">
-                      Text du témoignage
-                    </p>
+                    <p class="testimonial-text">Text du témoignage</p>
                     <div class="testimonial-author">Victime 3</div>
                   </div>
                 </div>
@@ -806,22 +803,22 @@ const showPopup = () => {
   font-size: 25px;
 }
 
-.presentation{
+.presentation {
   width: 100%;
 }
-.presentation .desc{
+.presentation .desc {
   width: 100%;
   padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.presentation .desc img{
+.presentation .desc img {
   width: 80%;
   margin: 0 auto;
   margin-bottom: 10px;
 }
-.presentation .desc p{
+.presentation .desc p {
   text-align: center;
   font-size: 10px;
 }
