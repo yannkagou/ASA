@@ -59,7 +59,7 @@
               <label class="input-label">Ville</label>
               <input
                 class="email"
-                type="tel"
+                type="text"
                 v-model="appointmentform.town"
                 placeholder="Votre ville..."
                 required
@@ -71,14 +71,20 @@
                 class="email"
                 v-model="appointmentform.option"
                 placeholder="Choisir votre option..."
-                required>
-                  <option value="inscription_personne">Inscription personne</option>
-                  <option value="inscription_famille">Inscription famille</option>
-                  <option value="adhesion_personne">Adhésion personne</option>
-                  <option value="adhesion_enfants">Adhésion enfants</option>
-                  <option value="dons">dons</option>
+                required
+              >
+                <option value="inscription_personne">Inscription personne</option>
+                <option value="inscription_famille">Inscription famille</option>
+                <option value="adhesion_personne">Adhésion personne</option>
+                <option value="adhesion_enfants">Adhésion enfants</option>
+                <option value="dons">dons</option>
               </select>
             </div>
+          </div>
+
+          <div class="form-items2" v-if="appointmentform.option == 'dons'">
+            <label class="input-label">Montant</label>
+            <input class="email" v-model="amount" type="number" required />
           </div>
 
           <div class="form-items2">
@@ -107,7 +113,7 @@
 
 <script setup>
 import { ref, reactive } from 'vue'
-import axios from 'axios';
+import axios from 'axios'
 
 defineProps({
   showAppointment: Boolean
@@ -117,7 +123,6 @@ const emits = defineEmits(['showAppointmentPopup'])
 const cancelAppointmentForm = () => {
   emits('showAppointmentPopup')
 }
-let appointmentData = ref([])
 
 // let showAppointment = ref(false)
 
@@ -131,69 +136,78 @@ let appointmentform = reactive({
   message: ''
 })
 
+let amount = ref(0)
+
 // function showAppointmentPopup() {
 //     showAppointment.value = !showAppointment.value
 // }
 
 async function saveAppointmentForm() {
-  appointmentData.value.push(appointmentform)
-  console.log(appointmentData.value)
-  if (appointmentform.option == "inscription_personne"){
-    await axios.post("https://api.monetbil.com/payment/v1/placePayment", {
-      "service": "GineojbVwE7rw5uvPUduZsGYWgeagWwN",
-      "amount": "1000",
-      "phonenumber": "237" + appointmentform.tel,
-      "last_name": appointmentform.name,
-      "email": appointmentform.email
-    }).then(res => {
-      console.log(res);
-    }).catch(error => {
-      console.log(error);
-    })
-  } else if (appointmentform.option == "inscription_famille"){
-    await axios.post("https://api.monetbil.com/payment/v1/placePayment", {
-      "service": "rDxZpkxgFIAJJddbRlfHzUtGjBwezp3l",
-      "amount": "3000",
-      "phonenumber": "237" + appointmentform.tel,
-      "last_name": appointmentform.name,
-      "email": appointmentform.email
-    }).then(res => {
-      console.log(res);
-    }).catch(error => {
-      console.log(error);
-    })
-  } else if (appointmentform.option == "adhesion_personne"){
-    await axios.post("https://api.monetbil.com/payment/v1/placePayment", {
-      "service": "vQYb7KRzSLm99KYKKduDgCbe7UpmyPCe",
-      "amount": "24000",
-      "phonenumber": "237" + appointmentform.tel,
-      "last_name": appointmentform.name,
-      "email": appointmentform.email
-    }).then(res => {
-      console.log(res);
-    }).catch(error => {
-      console.log(error);
-    })
-  } else if (appointmentform.option == "adhesion_enfants"){
-    await axios.post("https://api.monetbil.com/payment/v1/placePayment", {
-      "service": "ufnMLrKYvUJxzbsddQdmOJQXBRuDLutJ",
-      "amount": "10000",
-      "phonenumber": "237" + appointmentform.tel,
-      "last_name": appointmentform.name,
-      "email": appointmentform.email
-    }).then(res => {
-      console.log(res);
-    }).catch(error => {
-      console.log(error);
-    })
-  } else if (appointmentform.option == "dons"){
-    await axios.get("https://api.monetbil.com/widget/v2.1/VaB3haeYIao9zm8KrhQKwxFaoQ3ITQ8W").then(res => {
-      console.log(res);
-    }).catch(error => {
-      console.log(error);
-    })
+  if (appointmentform.option == 'inscription_personne') {
+    await axios
+      .post('https://api.monetbil.com/payment/v1/placePayment', {
+        service: 'GineojbVwE7rw5uvPUduZsGYWgeagWwN',
+        amount: '1000',
+        phonenumber: '237' + appointmentform.tel,
+        last_name: appointmentform.name,
+        email: appointmentform.email
+      })
+      .then((res) => {
+        console.log(res)
+      })
+      .catch((error) => {
+        console.log(error)
+      })
+  } else if (appointmentform.option == 'inscription_famille') {
+    await axios
+      .post('https://api.monetbil.com/payment/v1/placePayment', {
+        service: 'rDxZpkxgFIAJJddbRlfHzUtGjBwezp3l',
+        amount: '3000',
+        phonenumber: '237' + appointmentform.tel,
+        last_name: appointmentform.name,
+        email: appointmentform.email
+      })
+      .then((res) => {
+        console.log(res)
+      })
+      .catch((error) => {
+        console.log(error)
+      })
+  } else if (appointmentform.option == 'adhesion_personne') {
+    await axios
+      .post('https://api.monetbil.com/payment/v1/placePayment', {
+        service: 'vQYb7KRzSLm99KYKKduDgCbe7UpmyPCe',
+        amount: '24000',
+        phonenumber: '237' + appointmentform.tel,
+        last_name: appointmentform.name,
+        email: appointmentform.email
+      })
+      .then((res) => {
+        console.log(res)
+      })
+      .catch((error) => {
+        console.log(error)
+      })
+  } else if (appointmentform.option == 'adhesion_enfants') {
+    await axios
+      .post('https://api.monetbil.com/payment/v1/placePayment', {
+        service: 'ufnMLrKYvUJxzbsddQdmOJQXBRuDLutJ',
+        amount: '10000',
+        phonenumber: '237' + appointmentform.tel,
+        last_name: appointmentform.name,
+        email: appointmentform.email
+      })
+      .then((res) => {
+        console.log(res)
+      })
+      .catch((error) => {
+        console.log(error)
+      })
+  } else if (appointmentform.option == 'dons') {
+    window.location.href =
+      'https://api.monetbil.com/widget/v2.1/VaB3haeYIao9zm8KrhQKwxFaoQ3ITQ8W/?amount=' +
+      amount.value
   }
-
 }
 </script>
 

@@ -19,10 +19,6 @@
 
     <RouterView class="routerview" />
 
-  <form action="" method="get" data-monetbil="form">
-    <button class="" type="submit">Pay by Mobile Money</button>
-  </form>
-
     <footer>
       <!--? Footer Start-->
       <div class="footer-area section-bg">
