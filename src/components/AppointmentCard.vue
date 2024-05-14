@@ -152,12 +152,14 @@ async function saveAppointmentForm() {
         last_name: appointmentform.name,
         email: appointmentform.email
       })
-      .then((res) => {
-        console.log(res)
+      .then(() => {
+        cancelAppointmentForm()
       })
       .catch((error) => {
         console.log(error)
+        cancelAppointmentForm()
       })
+    cancelAppointmentForm()
   } else if (appointmentform.option == 'inscription_famille') {
     await axios
       .post('https://api.monetbil.com/payment/v1/placePayment', {
@@ -167,12 +169,14 @@ async function saveAppointmentForm() {
         last_name: appointmentform.name,
         email: appointmentform.email
       })
-      .then((res) => {
-        console.log(res)
+      .then(() => {
+        cancelAppointmentForm()
       })
       .catch((error) => {
         console.log(error)
+        cancelAppointmentForm()
       })
+    cancelAppointmentForm()
   } else if (appointmentform.option == 'adhesion_personne') {
     await axios
       .post('https://api.monetbil.com/payment/v1/placePayment', {
@@ -182,12 +186,14 @@ async function saveAppointmentForm() {
         last_name: appointmentform.name,
         email: appointmentform.email
       })
-      .then((res) => {
-        console.log(res)
+      .then(() => {
+        cancelAppointmentForm()
       })
       .catch((error) => {
         console.log(error)
+        cancelAppointmentForm()
       })
+    cancelAppointmentForm()
   } else if (appointmentform.option == 'adhesion_enfants') {
     await axios
       .post('https://api.monetbil.com/payment/v1/placePayment', {
@@ -197,13 +203,16 @@ async function saveAppointmentForm() {
         last_name: appointmentform.name,
         email: appointmentform.email
       })
-      .then((res) => {
-        console.log(res)
+      .then(() => {
+        cancelAppointmentForm()
       })
       .catch((error) => {
         console.log(error)
+        cancelAppointmentForm()
       })
+    cancelAppointmentForm()
   } else if (appointmentform.option == 'dons') {
+    cancelAppointmentForm()
     window.location.href =
       'https://api.monetbil.com/widget/v2.1/VaB3haeYIao9zm8KrhQKwxFaoQ3ITQ8W/?amount=' +
       amount.value
