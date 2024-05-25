@@ -113,7 +113,7 @@
 
 <script setup>
 import { ref, reactive } from 'vue'
-import axios from 'axios'
+// import axios from 'axios'
 
 defineProps({
   showAppointment: Boolean
@@ -144,78 +144,20 @@ let amount = ref(0)
 
 async function saveAppointmentForm() {
   if (appointmentform.option == 'inscription_personne') {
-    await axios
-      .post('https://api.monetbil.com/payment/v1/placePayment', {
-        service: 'GineojbVwE7rw5uvPUduZsGYWgeagWwN',
-        amount: '1000',
-        phonenumber: '237' + appointmentform.tel,
-        last_name: appointmentform.name,
-        email: appointmentform.email
-      })
-      .then(() => {
-        cancelAppointmentForm()
-      })
-      .catch((error) => {
-        console.log(error)
-        cancelAppointmentForm()
-      })
     cancelAppointmentForm()
+    window.location.href = 'https://nokash.co/pay-now/dl-663b97e7938f61715181'
   } else if (appointmentform.option == 'inscription_famille') {
-    await axios
-      .post('https://api.monetbil.com/payment/v1/placePayment', {
-        service: 'rDxZpkxgFIAJJddbRlfHzUtGjBwezp3l',
-        amount: '3000',
-        phonenumber: '237' + appointmentform.tel,
-        last_name: appointmentform.name,
-        email: appointmentform.email
-      })
-      .then(() => {
-        cancelAppointmentForm()
-      })
-      .catch((error) => {
-        console.log(error)
-        cancelAppointmentForm()
-      })
     cancelAppointmentForm()
+    window.location.href = 'https://nokash.co/pay-now/dl-663ba312cd82f1715184'
   } else if (appointmentform.option == 'adhesion_personne') {
-    await axios
-      .post('https://api.monetbil.com/payment/v1/placePayment', {
-        service: 'vQYb7KRzSLm99KYKKduDgCbe7UpmyPCe',
-        amount: '24000',
-        phonenumber: '237' + appointmentform.tel,
-        last_name: appointmentform.name,
-        email: appointmentform.email
-      })
-      .then(() => {
-        cancelAppointmentForm()
-      })
-      .catch((error) => {
-        console.log(error)
-        cancelAppointmentForm()
-      })
     cancelAppointmentForm()
+    window.location.href = 'https://nokash.co/pay-now/dl-663d2adcc7aca1715284'
   } else if (appointmentform.option == 'adhesion_enfants') {
-    await axios
-      .post('https://api.monetbil.com/payment/v1/placePayment', {
-        service: 'ufnMLrKYvUJxzbsddQdmOJQXBRuDLutJ',
-        amount: '10000',
-        phonenumber: '237' + appointmentform.tel,
-        last_name: appointmentform.name,
-        email: appointmentform.email
-      })
-      .then(() => {
-        cancelAppointmentForm()
-      })
-      .catch((error) => {
-        console.log(error)
-        cancelAppointmentForm()
-      })
     cancelAppointmentForm()
+    window.location.href = 'https://nokash.co/pay-now/dl-663d2b56a819c1715284'
   } else if (appointmentform.option == 'dons') {
     cancelAppointmentForm()
-    window.location.href =
-      'https://api.monetbil.com/widget/v2.1/VaB3haeYIao9zm8KrhQKwxFaoQ3ITQ8W/?amount=' +
-      amount.value
+    window.location.href = 'https://nokash.co/pay-now/dl-664fa72dea5aa1716496'
   }
 }
 </script>
