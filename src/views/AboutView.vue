@@ -18,15 +18,18 @@
                 <h2>BUT ET OBJECTIFS</h2>
               </div>
               <p class="mb-30 pera-bottom">
-                le but de la solidarité est de Faciliter les conditions d’accès à la prise en charge des victimes des accidents de la route et de
-                travail dans les hôpitaux, formation sanitaires et cliniques. <br>
-              L’objectif principal de l’association est de mener, aux moyens et ressources des cotisations des
-                membres, des dons, des subventions et tous autres profits, des actions de prévoyance, d’accès aux
-                soins faciles et réduire le taux de décès lié à la prise en charge tardive donc la raison est, le qui va
-                payer la factures et examens de la victime.
+                le but de la solidarité est de Faciliter les conditions d’accès à la prise en charge
+                des victimes des accidents de la route et de travail dans les hôpitaux, formation
+                sanitaires et cliniques. <br />
+                L’objectif principal de l’association est de mener, aux moyens et ressources des
+                cotisations des membres, des dons, des subventions et tous autres profits, des
+                actions de prévoyance, d’accès aux soins faciles et réduire le taux de décès lié à
+                la prise en charge tardive donc la raison est, le qui va payer la factures et
+                examens de la victime.
               </p>
               <p class="pera-top mb-50">
-               L’association de solidarité en cas d’accident a pour siège social Mvan carrefour et couvre  le triangle du territoire national
+                L’association de solidarité en cas d’accident a pour siège social Mvan carrefour et
+                couvre le triangle du territoire national
               </p>
             </div>
           </div>
@@ -41,7 +44,7 @@
         <div class="row justify-content-center">
           <div class="col-xl-8 col-lg-8 col-md-11 col-sm-11">
             <div class="section-title text-center mb-100">
-              <span>Organisation de l'ASA</span>
+              <span>Organisation de l'ASCA</span>
               <h3>Assemblée générale et bureau exécutif</h3>
             </div>
           </div>
@@ -75,22 +78,22 @@
             <div class="carousel-item active">
               <img src="@/assets/crash6.jpg" class="d-block w-100 team-img" alt="..." />
               <div class="carousel-caption d-md-block team-caption text-center">
-                <h5>Le Président</h5>
+                <h5>Le Président <b>Jacques PIATA</b></h5>
                 <p>Il supervise toutes les activités.</p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="@/assets/crash7.jpg" class="d-block w-100" alt="..." />
               <div class="carousel-caption team-caption d-md-block text-center">
-                <h5>Le Vice-président</h5>
+                <h5>Le Vice-président <b>Aimé TAGNE</b></h5>
                 <p>Il remplace le président en cas d’absence.</p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="@/assets/crash8.jpg" class="d-block w-100" alt="..." />
               <div class="carousel-caption team-caption d-md-block text-center">
-                <h5>Le Secrétaire Général</h5>
-                <p>Il est le principal animateur de l’ASA.</p>
+                <h5>Le Secrétaire Général <b>Espérant BARANGA</b></h5>
+                <p>Il est le principal animateur de l’ASCA.</p>
               </div>
             </div>
           </div>
@@ -120,13 +123,14 @@
       <h1>Nos Missions</h1>
       <div class="mission">
         <p>
-          Mission de L'ASA : l'Association de Solidarité en cas d'Accident est dédiée à aider les victimes d'accident de la route, à faciliter la prise
-          en charge dans les hôpitaux, financier les frais médicaux pour sauver les vies.
+          Mission de L'ASCA : l'Association de Solidarité en cas d'Accident est dédiée à aider les
+          victimes d'accident de la route, à faciliter la prise en charge dans les hôpitaux,
+          financier les frais médicaux pour sauver les vies.
         </p>
       </div>
       <div class="mission">
         <p>
-          Réseau de professionnel : L'ASA met à la disposition des victimes un réseau de
+          Réseau de professionnel : L'ASCA met à la disposition des victimes un réseau de
           professionnel spécialisé, incluant les avocats en droit du dommage corporel, des experts
           médicaux, les psychologues, les autorités compétentes (police, gendarmerie nationale) pour
           soutenir les victimes dans toutes les étapes.
@@ -134,36 +138,36 @@
       </div>
       <div class="mission">
         <p>
-          Actions de prévention : En plus de son rôle d'accompagnement d'aide, l'Association de Solidarité en cas d'Accident par le biais de l'auto-école italienne organise des
-          actions de sensibilisation, notamment auprès des jeunes conducteurs.
+          Actions de prévention : En plus de son rôle d'accompagnement d'aide, l'Association de
+          Solidarité en cas d'Accident par le biais de l'auto-école italienne organise des actions
+          de sensibilisation, notamment auprès des jeunes conducteurs.
         </p>
       </div>
       <div class="mission">
         <p>
           Assistance et conseils : les victimes d'accidents de la route sont encourgées à contacter
-          l'ASA pour recevoir de l'aide et des conseils.
+          l'ASCA pour recevoir de l'aide et des conseils.
         </p>
       </div>
       <div class="mission">
         <p>
-          L'Association de Solidarité en cas d'Accident a pour vocation
-          d'aider. Elle participe également à la commission des usagers de la route et fait des
-          actions de prévention.
+          L'Association de Solidarité en cas d'Accident a pour vocation d'aider. Elle participe
+          également à la commission des usagers de la route et fait des actions de prévention.
         </p>
         <P
           >L'association a décidé de se mobiliser pour vous apporter la prise en change rapide à
           votre situation. Si vous êtes victimes d'un accident de la route ou si vous avez des
-          questions n'hésitez pas à contacter l'Association de Solidarité en cas d'Accident du Cameroun pour obtenir de l'aide et des conseils.</P
+          questions n'hésitez pas à contacter l'Association de Solidarité en cas d'Accident du
+          Cameroun pour obtenir de l'aide et des conseils.</P
         >
       </div>
       <div class="mission">
         <p>Association aide aux victimes : l'accident de la route et professionnels</p>
         <P
           >L'association propose des professionnels adhèrent tous aux principes de la charte de
-          L'ASA afin de fournir un travail humain, honnête et de qualité. Pour les
-          professionnels souhaitent intervenir, il convient de laisser un message email à
-          l'intention du président de l'Association de Solidarité en cas d'Accident dans
-          la rubrique contact.</P
+          L'ASCA afin de fournir un travail humain, honnête et de qualité. Pour les professionnels
+          souhaitent intervenir, il convient de laisser un message email à l'intention du président
+          de l'Association de Solidarité en cas d'Accident dans la rubrique contact.</P
         >
       </div>
     </div>
@@ -171,22 +175,22 @@
 </template>
 
 <style>
-.missions{
+.missions {
   padding: 10px;
 }
 
-.missions h1{
+.missions h1 {
   color: var(--secondary);
 }
 
-.mission{
+.mission {
   margin: 5px 0;
   border: 1px solid var(--primary);
   padding: 10px;
   border-radius: 10px;
 }
 
-.mission p{
+.mission p {
   text-align: center;
 }
 </style>

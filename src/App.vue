@@ -2,7 +2,7 @@
   <main>
     <nav>
       <label class="logo">
-        <RouterLink to="/"><p>ASA</p></RouterLink>
+        <RouterLink to="/"><p>ASCA</p></RouterLink>
       </label>
       <input type="checkbox" id="check" />
       <label for="check" class="checkbtn">
@@ -38,7 +38,7 @@
                   </div>
                   <div class="footer-number">
                     <h5>+237 696 862 678 / +237 679 613 004</h5>
-                    <p>asa@gmail.com</p>
+                    <p>ASCA@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -48,20 +48,18 @@
                     <h4>Localisation</h4>
                     <ul>
                       <li>
-                        <a
-                          target="_blank"
-                          href=" https://www.google.com/maps/place/Neptune+Ecole+de+Postes+et+T%C3%A9l%C3%A9communication/@3.8516119,11.4966055,17z/data=!3m1!4b1!4m6!3m5!1s0x108bcfbe231376e7:0x3c753529d1e0369b!8m2!3d3.8516066!4d11.5014764!16s%2Fg%2F11g6rkrq0h?hl=fr&entry=ttu"
-                          >Yaounde MVAN</a
+                        <a target="_blank" href="https://maps.app.goo.gl/X2b4GWfuM9QyA4Y48"
+                          >Yaounde MVAN (Face Pharmacie de l'aéroport)</a
                         >
                       </li>
-                      <li>
+                      <!-- <li>
                         <a
                           target="_blank"
                           href="https://www.google.com/maps/search/essos+yaound%C3%A9/@3.8669586,11.5146749,12z/data=!3m1!4b1?hl=fr&entry=ttu"
                         >
                           Yaounde Odza</a
                         >
-                      </li>
+                      </li> -->
                     </ul>
                   </div>
                 </div>
@@ -303,9 +301,9 @@ nav ul li a.router-link-exact-active::after {
   color: var(--secondary);
   padding-right: 0px;
 }
-.footer-area .footer-top .single-footer-caption .footer-number h4 {
+.footer-area .footer-top .single-footer-caption .footer-number h5 {
   color: var(--primary);
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500;
   text-transform: capitalize;
 }

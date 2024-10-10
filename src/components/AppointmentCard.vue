@@ -76,7 +76,7 @@
                 <option value="inscription_personne">Inscription personne</option>
                 <option value="inscription_famille">Inscription famille</option>
                 <option value="adhesion_personne">Adhésion personne</option>
-                <option value="adhesion_enfants">Adhésion enfants</option>
+                <!-- <option value="adhesion_enfants">Adhésion enfants</option> -->
                 <option value="dons">dons</option>
               </select>
             </div>
@@ -145,17 +145,19 @@ let amount = ref(0)
 async function saveAppointmentForm() {
   if (appointmentform.option == 'inscription_personne') {
     cancelAppointmentForm()
-    window.location.href = 'https://nokash.co/pay-now/dl-663b97e7938f61715181'
+    // window.location.href = 'https://nokash.co/pay-now/dl-663b97e7938f61715181'
+    window.location.href = 'https://nokash.co/pay-now/dl-663ba312cd82f1715184'
   } else if (appointmentform.option == 'inscription_famille') {
     cancelAppointmentForm()
     window.location.href = 'https://nokash.co/pay-now/dl-663ba312cd82f1715184'
   } else if (appointmentform.option == 'adhesion_personne') {
     cancelAppointmentForm()
     window.location.href = 'https://nokash.co/pay-now/dl-663d2adcc7aca1715284'
-  } else if (appointmentform.option == 'adhesion_enfants') {
+  } else if (appointmentform.option == 'dons') {
+    /* else if (appointmentform.option == 'adhesion_enfants') {
     cancelAppointmentForm()
     window.location.href = 'https://nokash.co/pay-now/dl-663d2b56a819c1715284'
-  } else if (appointmentform.option == 'dons') {
+  } */
     cancelAppointmentForm()
     window.location.href = 'https://nokash.co/pay-now/dl-664fa72dea5aa1716496'
   }

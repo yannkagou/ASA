@@ -43,7 +43,7 @@
           sur l'urgence le temps de contacter les membres de la famille, parfois d'autres perdent la
           vie par manque de soins. C'est au terme de ces recherches que Monsieur PIATA JACQUES a
           créer cette association dénommée Association de Solidarité en cas d'Accident. <br />
-          L'objectif premier de l'ASA est de sauver des vies, alterner la douleur et favoriser la
+          L'objectif premier de l'ASCA est de sauver des vies, alterner la douleur et favoriser la
           guérison, faciliter la prise en charge des victimes dans les hopitaux. Vous voyez que la
           foi agissait avec ses oeuvres et que par les oeuvres la foi fut rendue parfaite. <br />
           Ainsi, s'accomplit ce que dit l'écriture, un accident c'est un évènement involontaire qui
@@ -124,7 +124,7 @@
               <div class="service-cap">
                 <h4>Assistance et conseils</h4>
                 <p>
-                  Les victimes d'accidents de la route sont encourgées à contacter l'ASA pour
+                  Les victimes d'accidents de la route sont encourgées à contacter l'ASCA pour
                   recevoir de l'aide et des conseils.
                 </p>
               </div>
@@ -152,7 +152,7 @@
               <div class="service-cap">
                 <h4>Réseau de professionnel</h4>
                 <p>
-                  L'ASA met à la disposition des victimes un réseau de professionnel spécialisé.
+                  L'ASCA met à la disposition des victimes un réseau de professionnel spécialisé.
                 </p>
               </div>
             </div>
@@ -168,7 +168,7 @@
         <div class="row justify-content-center">
           <div class="col-xl-8 col-lg-8 col-md-11 col-sm-11">
             <div class="section-title text-center mb-100">
-              <span>Organisation de l'ASA</span>
+              <span>Organisation de l'ASCA</span>
               <h3>Assemblée générale et bureau exécutif</h3>
             </div>
           </div>
@@ -202,22 +202,22 @@
             <div class="carousel-item active">
               <img src="@/assets/profile.jpg" class="d-block w-100 team-img" alt="..." />
               <div class="carousel-caption d-md-block team-caption text-center">
-                <h5>Le Président</h5>
+                <h5>Le Président <b>Jacques PIATA</b></h5>
                 <p>Il supervise toutes les activités.</p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="@/assets/profile.jpg" class="d-block w-100" alt="..." />
               <div class="carousel-caption team-caption d-md-block text-center">
-                <h5>Le Vice-président</h5>
+                <h5>Le Vice-président <b>Aimé TAGNE</b></h5>
                 <p>Il remplace le président en cas d’absence.</p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="@/assets/profile.jpg" class="d-block w-100" alt="..." />
               <div class="carousel-caption team-caption d-md-block text-center">
-                <h5>Le Secrétaire Général</h5>
-                <p>Il est le principal animateur de l’ASA.</p>
+                <h5>Le Secrétaire Général <b>Espérant BARANGA</b></h5>
+                <p>Il est le principal animateur de l’ASCA.</p>
               </div>
             </div>
           </div>
@@ -251,7 +251,7 @@
             <div class="section-title text-center mb-50">
               <span>Nos ressources</span>
               <h2>
-                Les ressources de l'ASA<br />
+                Les ressources de l'ASCA<br />
                 sont multiples!
               </h2>
             </div>
@@ -261,8 +261,8 @@
               <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="pricing-list">
                   <ul>
-                    <li>Inscription personne. . . . . . . . . . . <span>1 000 FCFA</span></li>
-                    <li>Inscription famille. . . . . . . . . . .<span>3 000 FCFA</span></li>
+                    <li>Inscription personne. . . . . . . . . . . <span>3000 FCFA</span></li>
+                    <li>Inscription famille. . . . . . . . . . .<span>5 000 FCFA</span></li>
                   </ul>
                 </div>
               </div>
@@ -270,7 +270,7 @@
                 <div class="pricing-list">
                   <ul>
                     <li>Frais d'adhésion. . . . . . . . . . .<span>24 000 FCFA</span></li>
-                    <li>Frais d'adhésion enfants. . . . . . . . . . .<span>10 000 FCFA</span></li>
+                    <!-- <li>Frais d'adhésion enfants. . . . . . . . . . .<span>10 000 FCFA</span></li> -->
                     <li>Dons. . . . . . . . . . .<span>***FCFA</span></li>
                     <li>Subventions. . . . . . . . . . .<span>***FCFA</span></li>
                   </ul>
